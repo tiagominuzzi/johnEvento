@@ -1,0 +1,22 @@
+language: java
+sudo: true
+dist: trusty
+jdk: oraclejdk9
+addons:
+  apt:
+    packages:
+      - oracle-java9-installer
+before_install:
+  - chmod +x mvnw
+
+script:
+- ./mvnw clean install -B
+- bash <(curl -s https://codecov.io/bash)
+
+deploy:
+  provider: heroku
+  api_key: "41e566f730fb1b0e74d56bfb273a66827f15fb60"
+  app: johnEvento
+   
+    
+    
