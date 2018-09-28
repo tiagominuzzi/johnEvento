@@ -11,11 +11,13 @@ before_install:
 
 script:
 - ./mvnw clean install -B
+
+after_success:
 - bash <(curl -s https://codecov.io/bash)
 
 deploy:
   provider: heroku
-  api_key: "41e566f730fb1b0e74d56bfb273a66827f15fb60"
+  api_key: "8adc5ee3-fb2a-4d6d-8c25-ac71ba5c00a4"
   app: johnEvento
    
     
