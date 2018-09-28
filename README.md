@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mfgonzalez/johnEvento.svg?branch=master)](https://travis-ci.org/mfgonzalez/johnEvento)
+
 # john-evento-h1
 Trabalho da disciplina de Introdução ao Desenvolvimento Ágil - Uniritter - 2018
 
