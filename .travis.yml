@@ -17,8 +17,6 @@ deploy:
   api_key:
     secure: "8adc5ee3-fb2a-4d6d-8c25-ac71ba5c00a4"
   app: johnEvento
-  edge:
-    branch: heroku-v3
-   
+
 after_success:
 - bash <(curl -s https://codecov.io/bash)
