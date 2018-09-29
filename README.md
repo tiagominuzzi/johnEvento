@@ -6,7 +6,7 @@ Trabalho da disciplina de Introdução ao Desenvolvimento Ágil - Uniritter - 20
 
 # US#1 - Criar evento
 
-Historia:
+História:
 Como gestor de eventos
 Quero ter a possibilidade de criar eventos
 Para que meus clientes tenham conhecimento de eventos e suas datas
@@ -44,24 +44,29 @@ Então não deve permitir salvar e informar a mensagem:
 
 # US#2 Ofertar Ingressos
 
+História
 Como gestor de eventos
 Quero ter inúmeros tipos de ingresso
 Para que eu possa atingir vários níveis de público
 
 Critérios
 
+#1
 Dado que quero disponibilizar um ingresso VIP
 Quando informar o valor
 Então o mesmo deve ser 1000
 
+#2
 Dado que quero disponibilizar um ingresso BACKSTAGE
 Quando informar o valor
 Então o mesmo deve ser 800
 
+#3
 Dado que quero disponibilizar um ingresso PLATEIA VIP
 Quando informar o valor
 Então o mesmo deve ser 500
 
+#4
 Dado que quero disponibilizar um ingresso PLATEIA
 Quando informar o valor
 Então o mesmo deve ser 300
