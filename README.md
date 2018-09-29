@@ -4,7 +4,7 @@ Trabalho da disciplina de Introdução ao Desenvolvimento Ágil - Uniritter - 20
 [![Build Status](https://travis-ci.org/mfgonzalez/johnEvento.svg?branch=master)](https://travis-ci.org/mfgonzalez/johnEvento)
 [![codecov](https://codecov.io/gh/mfgonzalez/johnEvento/branch/master/graph/badge.svg)](https://codecov.io/gh/mfgonzalez/johnEvento)
 
-# User story
+# US#1 - Criar evento
 
 Historia:
 Como gestor de eventos
@@ -42,13 +42,13 @@ Então não deve permitir salvar e informar a mensagem:
 
 
 
-# OFERTAR INGRESSOS
+# US#2 Ofertar Ingressos
 
 Como gestor de eventos
 Quero ter inúmeros tipos de ingresso
 Para que eu possa atingir vários níveis de público
 
-CRITÉRIOS
+Critérios
 
 Dado que quero disponibilizar um ingresso VIP
 Quando informar o valor
@@ -58,11 +58,9 @@ Dado que quero disponibilizar um ingresso BACKSTAGE
 Quando informar o valor
 Então o mesmo deve ser 800
 
-
 Dado que quero disponibilizar um ingresso PLATEIA VIP
 Quando informar o valor
 Então o mesmo deve ser 500
-
 
 Dado que quero disponibilizar um ingresso PLATEIA
 Quando informar o valor
