@@ -71,7 +71,7 @@ Dado que quero disponibilizar um ingresso PLATEIA
 Quando informar o valor
 Então o mesmo deve ser 300
 
-# US#3 DISPONIBILIZAR VÁRIOS TIPOS DE INGRESSOS
+# US#3 Disponibiliza vários tipos de ingressos
 
 Como gestor de eventos
 Quero  para cada evento disponibilizar variados tipos de ingressos com período de vendas
