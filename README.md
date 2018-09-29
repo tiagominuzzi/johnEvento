@@ -39,3 +39,34 @@ Dado que quero criar um evento
 Quando informar uma data inferior ao do dia atual e salvar
 Então não deve permitir salvar e informar a mensagem:
 "A data do evento deve ser igual ou maior que a de hoje"
+
+
+
+# OFERTAR INGRESSOS
+
+Como gestor de eventos
+Quero ter inúmeros tipos de ingresso
+Para que eu possa atingir vários níveis de público
+
+CRITÉRIOS
+
+Dado que quero disponibilizar um ingresso VIP
+Quando informar o valor
+Então o mesmo deve ser 1000
+
+Dado que quero disponibilizar um ingresso BACKSTAGE
+Quando informar o valor
+Então o mesmo deve ser 800
+
+
+Dado que quero disponibilizar um ingresso PLATEIA VIP
+Quando informar o valor
+Então o mesmo deve ser 500
+
+
+Dado que quero disponibilizar um ingresso PLATEIA
+Quando informar o valor
+Então o mesmo deve ser 300
+
+
+
